@@ -47,7 +47,6 @@
         }
     } else {
         isVerifyOk = RSACoder.verify(in.getBytes(), PartnerConfig.XC_RSA_PUBLIC, sign);
-
     }
 
 //    out.println(isVerifyOk+"</br>");
